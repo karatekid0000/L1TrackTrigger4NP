@@ -7,7 +7,7 @@ l1tTrackSelectionProducer = cms.EDProducer('L1TrackSelectionProducer',
                     ptMin = cms.double(2.0), # pt must be greater than this value, [GeV]
                     absEtaMax = cms.double(2.4), # absolute value of eta must be less than this value
                     absZ0Max = cms.double(15.0), # z0 must be less than this value, [cm]
-                    nStubsMin = cms.int32(4), # number of stubs must be greater than or equal to this value
+                    nStubsMin = cms.int32(3), # number of stubs must be greater than or equal to this value
                     nPSStubsMin = cms.int32(0), # the number of stubs in the PS Modules must be greater than or equal to this value
 
                     promptMVAMin = cms.double(-1.0), # MVA must be greater than this value
@@ -33,7 +33,7 @@ l1tTrackSelectionProducerExtended = l1tTrackSelectionProducer.clone(
                     ptMin = 3.0, # pt must be greater than this value, [GeV]
                     absEtaMax = 2.4, # absolute value of eta must be less than this value
                     absZ0Max = 15.0, # z0 must be less than this value, [cm]
-                    nStubsMin = 4, # number of stubs must be greater than or equal to this value
+                    nStubsMin = 3, # number of stubs must be greater than or equal to this value
                     nPSStubsMin = 0, # the number of stubs in the PS Modules must be greater than or equal to this value
 
                     promptMVAMin = -1.0, # MVA must be greater than this value 
@@ -56,7 +56,7 @@ l1tTrackSelectionProducerForJets = l1tTrackSelectionProducer.clone(
                     ptMin = 2.0, # pt must be greater than this value, [GeV]
                     absEtaMax = 2.4, # absolute value of eta must be less than this value
                     absZ0Max = 15.0, # z0 must be less than this value, [cm]
-                    nStubsMin = 4, # number of stubs must be greater than or equal to this value
+                    nStubsMin = 3, # number of stubs must be greater than or equal to this value
                     nPSStubsMin = 0, # the number of stubs in the PS Modules must be greater than or equal to this value
 
                     promptMVAMin = 0.1, # MVA must be greater than this value
@@ -77,7 +77,7 @@ l1tTrackSelectionProducerExtendedForJets = l1tTrackSelectionProducerExtended.clo
                     ptMin = 2.0, # pt must be greater than this value, [GeV]
                     absEtaMax = 2.4, # absolute value of eta must be less than this value
                     absZ0Max = 15.0, # z0 must be less than this value, [cm]
-                    nStubsMin = 4, # number of stubs must be greater than or equal to this value
+                    nStubsMin = 3, # number of stubs must be greater than or equal to this value
                     nPSStubsMin = 0, # the number of stubs in the PS Modules must be greater than or equal to this value
 
                     promptMVAMin = -1.0, # MVA must be greater than this value

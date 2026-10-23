@@ -39,7 +39,7 @@ namespace tmtt {
 
         // Kalman filter track fit cfg
         kalmanDebugLevel_(0),
-        kalmanMinNumStubs_(4),
+        kalmanMinNumStubs_(3),  // Reduced from 4 to 3
         kalmanMaxNumStubs_(6),
         kalmanAddBeamConstr_(false),  // Apply post-fit beam-spot constraint to 5-param fit
         kalmanRemove2PScut_(true),
